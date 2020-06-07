@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Merriweather', serif; 
+
+Farbe: #202020, #24bff2, #fff, #F5FBFE.*/
+
+html {
+    margin: 0;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+/* ----- Navigation ----- */
+nav {
+    font-family: 'Lato', sans-serif;
+    position: fixed;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: right;
+}
+ul {
+    margin: 16px 20px 16px 0;
+}
+nav ul li {
+    display: inline;
+    display: inline-block;
+    padding-right: 2.2em;
+}
+/* ----- global ----- */
+a {
+    text-decoration: none;
+    color: #202020;
+}
+a:hover {
+    color: gray;
+}
+h1 {
+    margin: 0;
+}
+h2 {
+    margin: 0;
+}
+p {
+    text-align: center;
+}
+/* ----- Klassen ----- */
+.left {
+    margin-left: 10%;
+}
+.xtraSpaceTop {
+    padding-top: 20px;
+}
+.headerL {
+    font-size: 2em;
+    line-height: 1.3em;
+    padding: 6em 50% 0 10%;
+}
+.headerR {
+    font-size: 2em;
+    line-height: 1.3em;
+    padding: 6em 0 0 50%;
+}
+.headerCenter {
+    font-size: 2em;
+    line-height: 1.3em;
+    text-align: center;
+    padding: 3em 10% 0 10%;
+}
+.headerMember {
+    padding: 0.5em 0 0.6em;
+}
+.pgray {
+    color: gray;
+}
+.psmall {
+    font-size: 0.7em;
+    line-height: 1.7em;
+}
+.txtL {
+    padding-right: 50%;
+    padding-left: 10%;
+    text-align: left;
+}
+.txtR {
+    padding: 0 5% 0 50%;
+    text-align: left;
+}
+.txtC {
+    padding: 0 20% 0 20%;
+    text-align: center;
+}
+.illuR1 {
+    height: 80vh;
+    background: url(../img/illustration1.gif) right/contain no-repeat;
+}
+.illuL1 {
+    height: 80vh;
+    background: url(../img/illustration2.png) left/contain no-repeat;
+    margin-left: 10%;
+}
+.illuR2 {
+    height: 80vh;
+    background: url(../img/illustration3.png) right/contain no-repeat;
+    margin-right: 2%;
+}
+.xtraSpaceEM {
+    padding-top: 4em;
+}
+.imgL {
+    width: 25%;
+    margin-left: 6%;
+}
+.imgC {
+    width: 25%;
+    margin: 0 5%;
+}
+.imgR {
+    width: 25%;
+    margin-right: 6%;
+}
+.img-L {
+    width: 35%;
+    margin-left: 10%;
+    margin-right: 8%;}
+.img-R {
+    width: 35%;
+    margin-right: 10%;
+}
+img:hover {
+    box-shadow: 0 0 4px rgb(200, 209, 211);
+}
+#membership {
+    padding: 1.5em 2%;
+    background: rgba(37, 191, 242, 0.1);
+    margin: 50px auto;
+    width: 20%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+#membership div {
+    background: #24bff2;
+    margin: 1.4em 4px 1.6em;
+    padding: 4px;
+    color: white;
+    border-radius: 4px;
+}
+#membership div:hover {
+    background: rgba(37, 191, 242, 0.6);
+    color: rgba(0, 0, 0, 0.5);
+}
+.fb {
+    font-size: 3em;
+    color: #3b5998;
+    line-height: 0.4em;
+}
+.ig {
+    font-size: 3em;
+    color: #fcaf45;
+    line-height: 0.4em;
+}
+.tw {
+    font-size: 3em;
+    color: #55acee;
+    line-height: 0.4em;
+}
+.yt {
+    font-size: 3em;
+    color: #c4302b;
+    line-height: 0.4em;
+}
