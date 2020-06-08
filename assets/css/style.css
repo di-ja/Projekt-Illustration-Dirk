@@ -6,8 +6,6 @@ font-family: 'Merriweather', serif;
 Farbe: #202020, #24bff2, #fff, #F5FBFE.*/
 
 html {
-    margin: 0;
-    font-size: 18px;
     scroll-behavior: smooth;
 }
 body {
@@ -38,6 +36,17 @@ a {
     text-decoration: none;
     color: #202020;
 }
+section a {
+    margin-left: 10%;
+    font-size: 0.8em;
+    padding: 6px 1.5em;
+    border: 1px solid grey;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.7);
+}
+section a:hover {
+    background: black;
+}
 a:hover {
     color: gray;
 }
@@ -51,6 +60,9 @@ p {
     text-align: center;
 }
 /* ----- Klassen ----- */
+.abst {
+    margin-left: 6px;
+}
 .left {
     margin-left: 10%;
 }
